@@ -1,6 +1,6 @@
 body
 {
-    background: #00D2B2;
+    background: #FFD2B2;
     color: #333;
     text-align: center;
     font-family: Arial;
@@ -41,4 +41,12 @@ body
 {
     background: white;
     padding: 1em;
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
