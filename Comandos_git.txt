@@ -5,7 +5,19 @@ diferencias
 
 git reset <codigo del commit> --hard : Regresa en el tiempo al commit quese introdujo
 
-git reset <codigo del commit> --soft : regresa en el tiempo pero deja en stagin los cambios 
+git reset <codigo del commit> --soft : regresa en el tiempo pero deja en stage los cambios 
 posteriores a ese commit en cache
 
 git log --stat :se pueden observar los cambios por commit 
+
+git chekout <codigo del commit> <nombre del archivo> : sirve para revisar como era el archivo 
+en el momento de ese commit, si serevisa el estatus en este punto git notara el cambio, y si 
+se hace el commit es como volver en el tiempo, se pierde todo lo corregido.
+PARA VOLVER se puede usar "git chekoout master <nombre del archivo>"
+
+git rm --cached: Elimina archivos del repositorio local y del área de staging, pero los 
+mantiene en el disco duro. Deja de trackear el historial de cambios de estos archivos, 
+por lo que quedan en estado untracked.
+
+git rm --force: Elimina los archivos de Git y del disco duro. Git guarda todo, por lo 
+que podemos recuperar archivos eliminados si es necesario (empleando comandos avanzados)
