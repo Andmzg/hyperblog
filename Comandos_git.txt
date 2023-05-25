@@ -10,10 +10,11 @@ posteriores a ese commit en cache
 
 git log --stat :se pueden observar los cambios por commit 
 
-git chekout <codigo del commit> <nombre del archivo> : sirve para revisar como era el archivo 
+git checkout <codigo del commit> <nombre del archivo> : sirve para revisar como era el archivo 
 en el momento de ese commit, si serevisa el estatus en este punto git notara el cambio, y si 
 se hace el commit es como volver en el tiempo, se pierde todo lo corregido.
-PARA VOLVER se puede usar "git chekoout master <nombre del archivo>"
+PARA VOLVER se puede usar "git chekoout master <nombre del archivo>". Tambien se puede
+utilizar para cambiarse de rama.
 
 git rm --cached: Elimina archivos del repositorio local y del área de staging, pero los 
 mantiene en el disco duro. Deja de trackear el historial de cambios de estos archivos, 
@@ -31,4 +32,4 @@ git merge : de esta forma se copia
 git pull : combina los dos giot anterioires
 
 
-
+gir branch <nommbre de un nuevo branch> : crea un nuevo branch
