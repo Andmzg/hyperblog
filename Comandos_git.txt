@@ -8,3 +8,4 @@ git reset <codigo del commit> --hard : Regresa en el tiempo al commit quese intr
 git reset <codigo del commit> --soft : regresa en el tiempo pero deja en stagin los cambios 
 posteriores a ese commit en cache
 
+git log --stat :se pueden observar los cambios por commit 
