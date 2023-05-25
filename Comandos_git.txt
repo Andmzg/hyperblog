@@ -1,1 +1,10 @@
 git show <nombre del archivo> : Muestra los cambios mostrador sobre un archivo
+
+git diff <codigo del commit a> <codigo del comit b> : compara dos commits y muestra las 
+diferencias
+
+git reset <codigo del commit> --hard : Regresa en el tiempo al commit quese introdujo
+
+git reset <codigo del commit> --soft : regresa en el tiempo pero deja en stagin los cambios 
+posteriores a ese commit en cache
+
