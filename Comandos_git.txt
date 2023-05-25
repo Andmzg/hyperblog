@@ -1,0 +1,1 @@
+git show <nombre del archivo> : Muestra los cambios mostrador sobre un archivo
