@@ -43,3 +43,11 @@ the local branch 'main' to the remote branch 'main' on the 'origin' remote repos
 This means that in the future, you can simply run git push without specifying the remote 
 and branch names, and Git will automatically push changes to the default upstream branch.
 
+git log --all --graph --decorate --oneline : Una manera muy visual de ver los cambios realizados
+
+git show-branch : muestra las ramas que existen y su historia
+
+git show-branch --all : algo similar a lo anterior pero con un poco mas de datos
+
+
+
