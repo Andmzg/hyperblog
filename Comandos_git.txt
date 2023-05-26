@@ -32,4 +32,14 @@ git merge : de esta forma se copia
 git pull : combina los dos giot anterioires
 
 
-gir branch <nommbre de un nuevo branch> : crea un nuevo branch
+git branch <nommbre de un nuevo branch> : crea un nuevo branch
+
+git remote add origin <colcoar lo que de ta el proyecto en github por ssh>
+
+git remote -v : para comprobar que estas conectado al proyecto que es en github 
+
+git push -u origin main : When you run this command, Git sets the default upstream branch for 
+the local branch 'main' to the remote branch 'main' on the 'origin' remote repository. 
+This means that in the future, you can simply run git push without specifying the remote 
+and branch names, and Git will automatically push changes to the default upstream branch.
+
