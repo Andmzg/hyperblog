@@ -49,5 +49,6 @@ git show-branch : muestra las ramas que existen y su historia
 
 git show-branch --all : algo similar a lo anterior pero con un poco mas de datos
 
+gitk : muestra las ramas en un software que trae por degecto git al instalar 
 
-
+holaa
