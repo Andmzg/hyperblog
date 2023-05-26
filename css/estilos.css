@@ -1,15 +1,8 @@
 body
 {
-<<<<<<< HEAD
     color: rgb(22, 204, 62);
     text-align: center;
     font-family: Courier;
-=======
-    background: #FFD2B2;
-    color: #333;
-    text-align: center;
-    font-family: Arial;
->>>>>>> header
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -17,27 +10,12 @@ body
 
 #cabecera
 {
-<<<<<<< HEAD
     background: #33A;
     box-shadow: 0xp 2xp 20xp 0xp rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
-=======
-    background: #37488b;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    color: white;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-#cabecera #logo
-{
-    width: 20px;
-    vertical-align: middle;
->>>>>>> header
 }
 
 #cabecera #tagline
@@ -75,4 +53,15 @@ body
     background: white;
     padding: 1em;
 }
+<<<<<<< HEAD
 >>>>>>> header
+=======
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+>>>>>>> f4aeb8e1a868a402426db234a78cbe01c030b6f2
